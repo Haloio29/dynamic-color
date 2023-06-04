@@ -1,0 +1,48 @@
+*, html, body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      transition: all .7s ease-in-out;
+}
+.container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+.title{
+      font-size: 44px;
+      font-weight: 800;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding: 14px;
+}
+.box{
+      width: 40%;
+      background-color: aquamarine;
+      padding: 35px;
+      border-radius: 10%;
+      display: flex;
+      justify-content: space-evenly;
+}
+.circle{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+}
+.red{
+      background-color: red;
+}
+.blue{
+      background-color: blue;
+}
+.pink{
+      background-color: pink;
+}
+.yellow{
+      background-color: yellow;
+}
